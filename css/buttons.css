@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* CSS Document */
+.btn-1 {background: rgba(255, 225, 0, 1); background: -webkit-linear-gradient(top, rgba(255, 255, 163, 1) 0%, rgba(255, 225, 0, 1) 100%); background: linear-gradient(to bottom, rgba(255, 255, 163, 1) 0%, rgba(255, 225, 0, 1) 100%); border-color: rgba(204, 204, 204, 1); color: rgba(51, 51, 51, 1); font-size: 14px; border-radius: 4px; border-width: 1px;}
+.btn-1:hover {background: rgba(224, 224, 0, 1); background: -webkit-linear-gradient(top, rgba(220, 220, 137, 1) 0%, rgba(224, 224, 0, 1) 100%); background: linear-gradient(to bottom, rgba(220, 220, 137, 1) 0%, rgba(224, 224, 0, 1) 100%); border-color: rgba(204, 204, 204, 1); color: rgba(0, 0, 0, 1); font-size: 14px; border-radius: 4px; border-width: 1px;}
+
+.input-file { position: relative; } /* Remove margin, it is just for stackoverflow viewing */
+.input-file .input-group-addon { border: 0px; padding: 0px; }
+.input-file .input-group-addon .btn { border-radius: 0 4px 4px 0 }
+.input-file .input-group-addon input { cursor: pointer; position:absolute; z-index:2;top:0;right:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0; background-color:transparent; color:transparent; }
+
+
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+
+input[readonly] {
+  background-color: white !important;
+  cursor: text !important;
+}
